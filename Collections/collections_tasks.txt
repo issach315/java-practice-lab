@@ -1,0 +1,311 @@
+Basic List Operations (20)
+
+
+
+Reverse a List without using Collections.reverse()
+
+Find duplicate elements in a List
+
+Find the first non-repeating character using List
+
+Rotate a List by k positions
+
+Find the intersection of two Lists
+
+Find the union of two Lists
+
+Remove all occurrences of a given element from ArrayList
+
+Find the frequency of each element in a List
+
+Merge two sorted ArrayLists into a single sorted ArrayList
+
+Find the second largest element in an ArrayList
+
+Remove duplicates from a List while maintaining order
+
+Check if two Lists are equal (same elements, same order)
+
+Find common elements between three ArrayLists
+
+Find the longest consecutive sequence in an ArrayList of integers
+
+Shuffle elements in a List without using Collections.shuffle()
+
+Find all pairs in an ArrayList that sum to a target value
+
+Implement a method to get a sublist and modify it (observe original list changes)
+
+Convert List of Strings to List of Integers
+
+Find the kth smallest element in an ArrayList
+
+Split a List into two equal halves
+
+LinkedList Coding Problems (15)
+Implement your own singly LinkedList with add, remove, find methods
+
+Reverse a singly LinkedList
+
+Detect a loop in a LinkedList
+
+Find the middle element of a LinkedList in one pass
+
+Merge two sorted LinkedLists
+
+Remove nth node from the end of a LinkedList
+
+Implement a method to check if LinkedList is palindrome
+
+Remove duplicate nodes from unsorted LinkedList
+
+Find the intersection point of two LinkedLists
+
+Add two numbers represented by LinkedLists
+
+Sort a LinkedList using merge sort
+
+Rotate a LinkedList by k nodes
+
+Flatten a multi-level LinkedList
+
+Clone a LinkedList with random pointers
+
+Implement LRU Cache using doubly LinkedList
+
+Set Interface Problems (15)
+Find duplicate elements using HashSet
+
+Check if an array contains duplicate elements within k distance
+
+Find symmetric difference between two Sets
+
+Find all unique triplets that sum to zero
+
+Implement a method to return union of multiple Sets
+
+Find the first repeating character using HashSet
+
+Find missing number in an array of 1 to n using HashSet
+
+Find longest substring without repeating characters using Set
+
+Check if two arrays are disjoint (no common elements)
+
+Find all duplicate words in a string using HashSet
+
+Remove duplicates from an array using LinkedHashSet to maintain order
+
+Find common characters between two strings using HashSet
+
+Find the starting point of a cycle in a linked list using HashSet
+
+Check if a sentence is pangram using HashSet
+
+Find the number of distinct absolute values in an array
+
+Map/HashMap Coding Tasks (25)
+Count frequency of each character in a string using HashMap
+
+Find first non-repeating character using HashMap
+
+Group anagrams from a list of strings
+
+Find two numbers in array that sum to target using HashMap
+
+Find the length of longest consecutive sequence in array
+
+Count frequency of words in a text file using HashMap
+
+Check if two strings are isomorphic using HashMap
+
+Implement a method to return a frequency map from a List
+
+Find the majority element in an array (appears more than n/2 times)
+
+Find all pairs with given sum in two arrays
+
+Find subarray with sum zero using HashMap
+
+Find longest substring with at most k distinct characters
+
+Design a time-based key-value store using HashMap of TreeMaps
+
+Implement insert, delete, getRandom in O(1) using HashMap and ArrayList
+
+Find top k frequent elements in array
+
+Implement LRU Cache using LinkedHashMap
+
+Check if a string has all unique characters using HashMap
+
+Find smallest subarray covering all values using HashMap
+
+Implement a method to sort HashMap by values
+
+Find all anagram pairs in array of strings
+
+Count number of subarrays with exactly k distinct integers
+
+Find longest substring without repeating characters using HashMap
+
+Check if two strings are permutations of each other using HashMap
+
+Find duplicate files in file system using HashMap
+
+Implement a frequency stack where pop returns most frequent element
+
+Queue & Deque Problems (15)
+Implement Stack using two Queues
+
+Implement Queue using two Stacks
+
+Reverse first k elements of a Queue
+
+Generate binary numbers from 1 to n using Queue
+
+Implement a circular Queue using ArrayList
+
+Find maximum in sliding window using Deque
+
+Implement a recent counter using Queue
+
+Design a hit counter using Queue
+
+Implement a task scheduler using PriorityQueue
+
+Reverse Queue without using any data structure
+
+Find the first negative integer in every window of size k
+
+Implement a method to return k largest elements using PriorityQueue
+
+Design a messaging queue with producer-consumer using BlockingQueue
+
+Implement LRU Cache using Deque and HashMap
+
+Find the shortest subarray with sum at least k using Deque
+
+PriorityQueue & Heap Problems (15)
+Find kth largest element using PriorityQueue
+
+Merge k sorted lists using PriorityQueue
+
+Find median from data stream using two PriorityQueues
+
+Find top k frequent words using PriorityQueue
+
+Implement a method to return k closest points to origin
+
+Find k pairs with smallest sums from two arrays
+
+Rearrange characters so no two adjacent are same using PriorityQueue
+
+Find kth smallest element in sorted matrix using PriorityQueue
+
+Connect n ropes with minimum cost using PriorityQueue
+
+Implement task scheduler with cooldown using PriorityQueue
+
+Find most frequent k words in stream using PriorityQueue
+
+Find kth largest element in a stream
+
+Design a twitter feed system using PriorityQueue
+
+Find smallest range covering elements from k lists
+
+Implement a max heap using PriorityQueue
+
+TreeMap & TreeSet Problems (15)
+Find floor and ceiling of a number in sorted array using TreeSet
+
+Find kth smallest element in BST using TreeSet
+
+Count smaller elements on right side using TreeSet
+
+Find number of elements in given range using TreeSet
+
+Implement a calendar I using TreeMap
+
+Find right interval using TreeMap
+
+Find contains duplicate III (abs diff <= t and index diff <= k)
+
+Count of range sum using TreeMap
+
+Find maximum gap using TreeSet
+
+Implement snapshot array using TreeMap
+
+Design a leaderboard using TreeMap
+
+Find k-empty slots using TreeSet
+
+My Calendar III using TreeMap
+
+Find reverse pairs using TreeSet
+
+Range module using TreeMap
+
+Advanced Collection Problems (20)
+Implement a trie (prefix tree) using HashMap
+
+Design HashSet without using built-in libraries
+
+Design HashMap without using built-in libraries
+
+Implement an LRU Cache from scratch (not using LinkedHashMap)
+
+Implement LFU Cache using HashMap and TreeMap
+
+Design insert delete getRandom O(1) with duplicates allowed
+
+Implement a multi-value dictionary (Map<String, List>)
+
+Design a time travel map with versioning
+
+Implement a method to deep copy a nested list
+
+Design a file system using TreeMap
+
+Implement autocomplete system using TreeMap
+
+Design a voting system to get top k candidates
+
+Implement consistent hashing using TreeMap
+
+Design a rate limiter using TreeMap
+
+Implement a social media feed using PriorityQueue
+
+Design a shopping cart with inventory management using HashMap
+
+Implement a method to merge multiple maps
+
+Design a concurrent key-value store with transactions
+
+Implement a method to find all combinations that sum to target
+
+Design a stock price tracker with min, max, current using TreeMap
+
+Concurrent Collections (10)
+Implement producer-consumer using BlockingQueue
+
+Design a thread-safe cache using ConcurrentHashMap
+
+Implement a method to safely iterate over CopyOnWriteArrayList
+
+Design a rate limiter using ConcurrentHashMap
+
+Implement a concurrent task executor using PriorityBlockingQueue
+
+Design a hit counter using ConcurrentHashMap
+
+Implement a method to atomically update map entries
+
+Design a thread-safe LRU Cache using ConcurrentHashMap
+
+Implement a method to computeIfAbsent in ConcurrentHashMap
+
+Design a concurrent stack using ConcurrentLinkedDeque

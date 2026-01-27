@@ -1,0 +1,509 @@
+Section 1: Basics (1–40)
+
+
+
+Write a Java program to find the length of a given array.
+
+How do you declare and initialize a 1D integer array with the values 5, 10, 15, and 20 in a single line?
+
+Write a Java program to traverse and print all elements of an array using a standard for loop.
+
+Write a Java program to traverse and print all elements of an array using an enhanced for loop.
+
+How do you access the first and the last element of an array programmatically?
+
+Write a Java method to find the largest element in an integer array.
+
+Write a Java method to find the smallest element in an integer array.
+
+Calculate the sum of all elements in an integer array.
+
+Calculate the average of all elements in an integer array.
+
+Write a program to copy elements from one array to another array.
+
+Write a program to reverse the order of elements in an integer array and store the result in a new array.
+
+Write a program to reverse the order of elements in an integer array in-place (without using a second array).
+
+How do you take an integer n as input, then read n integers and store them in an array?
+
+Given an array, print all elements at even indices (0, 2, 4, ...).
+
+Given an array, print all elements that are at odd positions (considering position 1 as the first element).
+
+Count how many elements in an array are positive, negative, or zero.
+
+Write a program to find the second-largest element in an array.
+
+Write a program to find the second-smallest element in an array.
+
+Check if a given array contains a specific integer value.
+
+Explain the difference between int[] arr; and int arr[]; in Java.
+
+What happens if you try to access arr[-1] or arr[arr.length] in Java?
+
+How do you initialize all elements of an integer array to a specific value, say 1?
+
+Write a method to print an array in the format [elem1, elem2, ...].
+
+Given two integer arrays of the same length, create a third array where each element is the sum of the corresponding elements from the first two.
+
+Find the product of all elements in an array.
+
+Write a program that prints the elements of an array from the middle to the ends (e.g., for even length, print mid, mid-1, mid+1, mid-2, mid+2...).
+
+Count the number of even and odd numbers in an integer array.
+
+Find the index of the largest element in an array. What if there are multiple occurrences?
+
+Find the index of the smallest element in an array.
+
+Given an array, create a new array that contains the squares of each element.
+
+Calculate the difference between the largest and smallest values in an array.
+
+Write a program that swaps the first and last elements of an array.
+
+Print the elements of an array in reverse order.
+
+What is the time complexity of finding the maximum element in an unsorted array?
+
+What is the space complexity of reversing an array using a second array? What about in-place reversal?
+
+How many iterations are required to traverse an array of size n?
+
+Write a program to find the minimum and maximum element in an array using fewer than 2*(n-1) comparisons.
+
+Check if an array is a palindrome (reads the same forwards and backwards).
+
+Given an array, find the element that appears the maximum number of times (handle basic cases, assume one frequent element).
+
+Given two arrays, check if they are equal (same length and same elements in the same order).
+
+Section 2: Searching & Counting (41–80)
+Implement linear search to find the index of a target value. Return -1 if not found.
+
+Implement linear search to find the last occurrence of a target value.
+
+Count the frequency of a given element in an array.
+
+Print the frequency of every distinct element in an array (elements can be unsorted).
+
+Given an array where all numbers appear exactly twice except one, find that unique number.
+
+Given an array where all numbers appear exactly twice except two numbers, find those two unique numbers.
+
+Find the first non-repeating element in an array.
+
+Find the missing number in an array of size n containing distinct numbers from 0 to n.
+
+Find the missing number in an array of size n-1 containing distinct numbers from 1 to n.
+
+Given an array of size n containing numbers from 1 to n+1 with one missing, find the missing number.
+
+Find the smallest missing positive integer in an unsorted integer array.
+
+Given an array containing n numbers taken from the range 1 to n, find the number that is duplicated.
+
+Given an array of size n with elements in the range 1 to n, find all numbers that appear more than once.
+
+Given a sorted binary array (0s and 1s), count the number of 1s.
+
+Given a sorted array, count the number of occurrences of a given target value.
+
+Find the first occurrence (index) of a target in a sorted array. If not found, return -1.
+
+Find the last occurrence (index) of a target in a sorted array.
+
+Given an array where every element appears an even number of times except one, find it using XOR.
+
+Calculate the prefix sum array of a given integer array.
+
+Given an array and a range [L, R] (indices), find the sum of elements from index L to R using the prefix sum concept.
+
+Given an array, check if there exists a subarray with a sum equal to zero.
+
+Given an array of 0s, 1s, and 2s, count the number of 0s, 1s, and 2s.
+
+Given an array, find the element that appears more than n/2 times (Majority Element). Assume it always exists.
+
+Given an array, find the element that appears more than n/3 times.
+
+Given an array of integers in the range 1 to n, find the two repeating elements.
+
+Given an array, find the number of pairs (i, j) such that arr[i] == arr[j] and i < j.
+
+Find the maximum repeating number in an array where elements are in a given range 0 to k-1 and k <= n.
+
+Given an array, find the first repeating element (an element that appears more than once and whose index of second occurrence is smallest).
+
+Given an array, find the minimum distance between two given numbers x and y.
+
+Given an array of size n, find all elements that appear more than n/k times.
+
+Find the only element that appears an odd number of times when all others appear an even number of times (using bitwise XOR).
+
+Given an array, find the largest subarray with an equal number of 0s and 1s (consider 0 and 1 elements only).
+
+Given an array, find the majority element in linear time and constant space (Boyer-Moore Voting Algorithm).
+
+Given an integer array, find the maximum value of arr[j] - arr[i] such that j > i.
+
+Find the "equilibrium index" of an array – an index where the sum of elements to the left equals the sum of elements to the right.
+
+Given an array, find the maximum product of two integers in the array.
+
+Given a binary array, find the maximum number of consecutive 1s.
+
+Given an array of integers, handle queries to find the sum between indices l and r efficiently after preprocessing.
+
+Given an array, replace every element with the product of all other elements in the array without using the division operator.
+
+Given a circular array, find the next greater element for every element.
+
+Section 3: Sorting & Rearrangement (81–120)
+Implement the Bubble Sort algorithm for an integer array.
+
+Implement the Selection Sort algorithm.
+
+Implement the Insertion Sort algorithm.
+
+Given an array, sort it using the Counting Sort algorithm (assume a suitable range of elements).
+
+Given an array of 0s and 1s, sort it so all 0s come before all 1s (Dutch National Flag variation).
+
+Given an array of 0s, 1s, and 2s, sort it in linear time (Dutch National Flag problem).
+
+Move all negative numbers to the beginning and positive numbers to the end of an array, maintaining relative order.
+
+Move all negative numbers to the beginning and positive numbers to the end of an array. Relative order does not matter.
+
+Rearrange an array such that all even numbers come before all odd numbers.
+
+Rearrange an array in alternating positive and negative items (positive, negative, positive...). Assume equal numbers of positive and negative numbers.
+
+Rearrange an array in alternating positive and negative items when the count of positives and negatives is not equal.
+
+Given an array, separate odd and even numbers such that odds come first, then evens.
+
+Write a program to cyclically rotate an array by one position (right shift).
+
+Write a program to cyclically rotate an array by k positions to the right.
+
+Write a program to left rotate an array by d positions.
+
+Given a sorted array, remove duplicate elements in-place such that each element appears only once. Return the new length.
+
+Given a sorted array, remove all occurrences of a specific value in-place. Return the new length.
+
+Given an array, rearrange it so that arr[i] = i for every index i. If the element is not present, put -1.
+
+Write a program to find the minimum swaps required to bring all elements less than or equal to k together.
+
+Given an array, sort it in wave form: arr[0] >= arr[1] <= arr[2] >= arr[3] <= arr[4]...
+
+Given a sorted array and a target, find the ceiling of the target (smallest element >= target).
+
+Given a sorted array and a target, find the floor of the target (largest element <= target).
+
+Given an unsorted array, find the k-th smallest element.
+
+Given an unsorted array, find the k-th largest element.
+
+Given an array, rearrange it so that the first part contains the smallest k elements (not necessarily sorted).
+
+Sort an array in which each number is at most k places away from its correct sorted position.
+
+Given two sorted arrays, merge them into a single sorted array.
+
+Given an array of integers, sort the squares of each number.
+
+Rearrange an array such that arr[i] becomes arr[arr[i]] with O(1) extra space. Values are in the range 0 to n-1.
+
+Given an array, sort it by the frequency of elements (most frequent first). Handle ties.
+
+Given an array of meeting time intervals (each interval is a 2-element array [start, end]), merge overlapping intervals and return a new array of non-overlapping intervals.
+
+Given an array of distinct integers, find the minimum number of swaps required to sort the array.
+
+Given an array, rearrange it to maximize the sum of the product of consecutive pairs.
+
+Rearrange characters in an array (or string represented as array) so that no two adjacent characters are the same (if possible).
+
+Given an array, form the largest number possible by concatenating the array elements.
+
+Given an array of n elements in the range 1 to n, find the minimum number of swaps to arrange them in sorted order.
+
+Sort an array of dates represented as strings in "DD-MM-YYYY" format.
+
+Given an array, shuffle it randomly such that every permutation is equally likely (Fisher-Yates Shuffle).
+
+Given an array of points in a 2D plane (each point as [x, y]), sort them by distance from the origin.
+
+Sort a nearly sorted (or K sorted) array where each element is at most k positions away from its target position.
+
+Section 4: Subarrays & Sliding Window (121–160)
+Find the sum of all subarrays of a given array. Analyze its time complexity.
+
+Find the maximum sum of any contiguous subarray (Kadane's Algorithm).
+
+Find the maximum sum of a contiguous subarray and also print the subarray's start and end indices.
+
+Find the maximum product subarray in an integer array.
+
+Given an array of non-negative integers and a target sum, find the length of the longest subarray with a sum equal to the target.
+
+Given an array of integers (could be negative) and a target sum, find if there exists a subarray with that sum.
+
+Given an array of integers and a target sum, find the total number of continuous subarrays whose sum equals the target.
+
+Given a binary array, find the maximum length of a contiguous subarray with an equal number of 0s and 1s.
+
+Given an array containing only 0s and 1s, find the longest subarray with at most k zeroes (flipping allowed concept).
+
+Given an array, find the minimum sum subarray of size k.
+
+Given an array, find the maximum sum subarray of size k (fixed-size sliding window).
+
+Given an array and a positive integer k, find the maximum for each contiguous subarray of size k (Sliding Window Maximum).
+
+Find the smallest subarray length whose sum is greater than or equal to a given target value (for array of positive integers).
+
+Given a string represented as a character array, find the length of the longest substring without repeating characters (using sliding window).
+
+Given two arrays, find the smallest subarray in the first array that contains all elements of the second array (order doesn't matter).
+
+Given an array, find the longest subarray with sum divisible by k.
+
+Given an array, count distinct elements in every window of size k.
+
+Given an array, find the subarray with the least average of size k.
+
+Given an array of 0s and 1s, and an integer k, find the maximum consecutive 1's you can get by flipping at most k 0s.
+
+Given an array, find the length of the longest subarray with at most two distinct integers (if array elements represent types).
+
+Given an array of integers, find the maximum length of a subarray where the absolute difference between any two elements is ≤ 1.
+
+Given an array, find the maximum sum of two non-overlapping subarrays of given lengths L and M.
+
+Given an array, find the maximum sum of k consecutive elements using the prefix sum technique.
+
+Given an array, find the maximum difference between two elements such that larger element appears after the smaller (optimized version).
+
+Given an array, find the maximum profit by buying and selling a share at most twice.
+
+Trapping Rain Water problem: Given an array representing elevation map, compute how much water it can trap.
+
+Container With Most Water: Given an array of heights, find two lines that together with the x-axis form a container holding the most water.
+
+Given a circular array, find the maximum sum of a contiguous subarray.
+
+Given an array, find the longest turbulent subarray (where the comparison sign flips between each adjacent pair).
+
+Given an array, find the number of subarrays with sum exactly equal to k (using prefix sum and hash map).
+
+Given an array, find the longest subarray with sum equal to zero.
+
+Given an array of positive integers, find the smallest subarray with a sum greater than a given value S.
+
+Given an array, find the maximum sum of a subarray of size between a and b.
+
+Given an array of integers, find the maximum sum of a subsequence with no two adjacent elements.
+
+Given an array, find the maximum length of a subarray with at most k distinct integers.
+
+Given an array, find the minimum window in arr1 that contains all elements of arr2 (with duplicates considered).
+
+Given an array, find the longest subarray where the difference between the max and min element is ≤ limit.
+
+Given a binary array, find the count of subarrays with more 1s than 0s.
+
+Given an array, find the maximum sum circular subarray (consider wrapping).
+
+Chocolate Distribution Problem: Given an array representing chocolate packet sizes and m children, find the minimum difference between max and min chocolates given to m children.
+
+Section 5: Two Pointers & Optimization (161–190)
+Given a sorted array and a target sum, find if there exists a pair with that sum.
+
+Given a sorted array and a target sum, find all pairs with that sum.
+
+Given an unsorted array and a target sum, find if there exists a pair with that sum.
+
+Given an array, find all unique triplets that sum to zero.
+
+Given an array and a target, find three integers whose sum is closest to the target.
+
+Given an array, count all distinct triplets whose sum is less than a given target.
+
+Given an array, count all triplets such that the sum of two equals the third element.
+
+Given an array, remove duplicates from a sorted array in-place using two pointers.
+
+Given an array, move all zeros to the end while maintaining the relative order of non-zero elements.
+
+Given two sorted arrays, find their intersection (common elements).
+
+Given two sorted arrays, find their union.
+
+Given two sorted arrays of size m and n, find the median of the combined array in O(log(min(m, n))) time.
+
+Given an array, find the maximum product of a triplet in the array.
+
+Given an array, find four elements that sum to a given target.
+
+Given an array, find the Pythagorean triplet (a² + b² = c²).
+
+Given a sorted array, find a pair whose sum is closest to a given number x.
+
+Given an array, find the minimum length of an unsorted subarray sorting which makes the whole array sorted.
+
+Given three sorted arrays, find the common elements present in all three.
+
+Given an array, segregate 0s and 1s using the two-pointer technique.
+
+Given an array of characters, reverse the string (array) using two pointers.
+
+Check if a given array has a subarray with a sum of zero using hashing and prefix sum.
+
+Given two arrays, check if they are disjoint (no common elements).
+
+Given an array, find the maximum j – i such that arr[j] > arr[i] (max distance between two elements with order constraint).
+
+Given an array, find the longest subarray with sum zero using hashing.
+
+Given an array of n elements, generate all possible subarrays (using two loops).
+
+Given an array, rearrange it such that arr[i] is the product of all array elements except arr[i] without using division.
+
+Given two arrays, find the pair (one from each array) whose sum is closest to a given target.
+
+Given an array of integers, find the maximum length of a subarray with equal number of 0s and 1s using prefix sum and hashing.
+
+Given an array and a value k, rotate the array to the right by k steps using reversal algorithm.
+
+Given a sorted and rotated array, find the pivot (index of the smallest element).
+
+Section 6: 2D Arrays & Matrix Problems (191–220)
+Write a program to traverse and print a 2D matrix row-wise.
+
+Write a program to traverse and print a 2D matrix column-wise.
+
+Calculate the sum of all elements in a given 2D matrix.
+
+Find the row with the maximum sum in a 2D matrix.
+
+Find the column with the maximum sum.
+
+Print the boundary elements of a square matrix.
+
+Print a given square matrix in spiral order.
+
+Given a square matrix, print its transpose (in-place for square matrix).
+
+Given a matrix, rotate it by 90 degrees clockwise (in-place for square matrix).
+
+Given a matrix, check if it is symmetric (square matrix equal to its transpose).
+
+Given two matrices, add them.
+
+Given two matrices, multiply them.
+
+Given a matrix, search for a target value (matrix is sorted row-wise and column-wise).
+
+Given a matrix with each row sorted, find the median of the matrix (all elements considered).
+
+Given a binary matrix, find the row with the maximum number of 1s (rows are sorted).
+
+Given a matrix, print it in diagonal zigzag order.
+
+Given a matrix, set entire row and column to 0 if an element is 0 (in-place).
+
+Given a square matrix, print it in a wave pattern (row-wise: first row left-to-right, second right-to-left, etc.).
+
+Given an n x n matrix, rotate it by 90 degrees anti-clockwise.
+
+Given a matrix, return all elements in spiral order for a non-square matrix.
+
+Given a matrix, find the maximum sum of any k x k submatrix.
+
+Given a matrix of 0s and 1s, find the largest rectangle of 1s.
+
+Given a matrix, find the number of islands of 1s (8 directions considered).
+
+Given a matrix, perform a DFS/BFS traversal.
+
+Given a matrix where each cell has a cost, find the minimum cost path from top-left to bottom-right (only right/down moves allowed).
+
+Given a matrix, find a specific word in the matrix (word search) where the word can be formed by adjacent horizontal/vertical cells.
+
+Given a matrix, find the maximum sum submatrix of size a x b.
+
+Given a matrix, sort it row-wise and column-wise (all rows sorted, all columns sorted).
+
+Given a matrix with rows sorted, find the common element present in all rows.
+
+Given a matrix, find the kth smallest element.
+
+Section 7: Advanced & Interview-Level Problems (221–250)
+Trapping Rain Water II: Given a 2D elevation map, compute how much water it can trap after raining.
+
+Given stock prices for n days, find the maximum profit with at most two transactions.
+
+Given stock prices, find the maximum profit with at most k transactions.
+
+N-Queens problem: Place N queens on an N×N chessboard so that no two queens attack each other (output all distinct board configurations as arrays).
+
+Given an array of integers, find the longest consecutive subsequence (sequence of consecutive integers) in O(n) time.
+
+Given an array, find the number of subarrays with a sum divisible by k.
+
+Given an array, find the length of the longest subarray with sum divisible by k.
+
+Given an array of integers, find the maximum product of three numbers.
+
+Given an array, find the maximum length of a subarray with equal number of 0s and 1s (with possible negative numbers? handle via prefix sum and map).
+
+Given an array of n numbers from 1 to n with one missing and one duplicate, find both in O(n) time and O(1) extra space.
+
+Count inversions in an array (number of pairs i < j such that arr[i] > arr[j]) using merge sort concept.
+
+Given an array, find the smallest positive integer missing from the array in O(n) time and constant extra space.
+
+Find the k-th permutation sequence of numbers from 1 to n.
+
+Given an array of integers, design a data structure (or method) to efficiently handle range sum queries with updates.
+
+Given a circular array, find the next greater element for every element.
+
+Find the minimum number of jumps required to reach the end of an array (each element represents max jump length from that position).
+
+Given an array of meeting time intervals, find the minimum number of conference rooms required.
+
+Given an array, partition it into two subsets such that the difference of subset sums is minimum.
+
+Given an array, find if it can be partitioned into two subsets with equal sum (subset sum problem variation).
+
+Given an array, find the maximum sum of i * arr[i] among all rotations of the array.
+
+Given an array, find the longest subarray with sum divisible by k (handle negative numbers).
+
+Given an array, find the smallest subarray that needs to be sorted to make the entire array sorted.
+
+Given an array of size n where all elements are in range 1 to n, find all duplicates without using extra space.
+
+Given an array and an integer k, find the maximum element in every subarray of size k using a deque in O(n) time.
+
+Implement a circular buffer (queue) using an array.
+
+Given an array, find the maximum XOR of two numbers in the array.
+
+Given an array, for each element, find the product of all other elements without using division and in O(n) time.
+
+Design a RandomizedSet class that supports insert, remove, and getRandom in average O(1) time using an array and hash map.
+
+Given an array of integers, find the minimum swaps to group all 1s together (array contains only 0s and 1s).
+
+Given an array, find the longest subarray where the difference between max and min element is ≤ a given limit.
