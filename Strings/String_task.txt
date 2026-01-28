@@ -1,487 +1,525 @@
-Basic String Operations (1-50)
+JAVA STRING PROGRAMMING QUESTIONS (250 Questions)
 
+================================================================================
+Section 1: Basic String Operations (1-50)
+================================================================================
 
+1. Write a program to find the length of a string.
 
-Write a program to find the length of a string.
+2. Write a program to concatenate two strings.
 
-Write a program to concatenate two strings.
+3. Compare two strings for equality.
 
-Compare two strings for equality.
+4. Check if a string is empty.
 
-Check if a string is empty.
+5. Convert a string to uppercase.
 
-Convert a string to uppercase.
+6. Convert a string to lowercase.
 
-Convert a string to lowercase.
+7. Extract a substring from a string.
 
-Extract a substring from a string.
+8. Find the character at a specific index.
 
-Find the character at a specific index.
+9. Convert a string to a character array.
 
-Convert a string to a character array.
+10. Convert a character array to a string.
 
-Convert a character array to a string.
+11. Replace all occurrences of a character in a string.
 
-Replace all occurrences of a character in a string.
+12. Replace first occurrence of a substring.
 
-Replace first occurrence of a substring.
+13. Remove leading and trailing whitespace.
 
-Remove leading and trailing whitespace.
+14. Split a string by a delimiter.
 
-Split a string by a delimiter.
+15. Join multiple strings with a delimiter.
 
-Join multiple strings with a delimiter.
+16. Check if a string starts with a specific prefix.
 
-Check if a string starts with a specific prefix.
+17. Check if a string ends with a specific suffix.
 
-Check if a string ends with a specific suffix.
+18. Find the index of a character in a string.
 
-Find the index of a character in a string.
+19. Find the last index of a character in a string.
 
-Find the last index of a character in a string.
+20. Check if a string contains a substring.
 
-Check if a string contains a substring.
+21. Repeat a string N times.
 
-Repeat a string N times.
+22. Pad a string with spaces on the left.
 
-Pad a string with spaces on the left.
+23. Pad a string with spaces on the right.
 
-Pad a string with spaces on the right.
+24. Format a string using placeholders.
 
-Format a string using placeholders.
+25. Trim whitespace from both ends.
 
-Trim whitespace from both ends.
+26. Compare strings lexicographically.
 
-Compare strings lexicographically.
+27. Compare strings ignoring case.
 
-Compare strings ignoring case.
+28. Convert integer to string.
 
-Convert integer to string.
+29. Convert string to integer.
 
-Convert string to integer.
+30. Check if a string is numeric.
 
-Check if a string is numeric.
+31. Convert string to float.
 
-Convert string to float.
+32. Convert string to double.
 
-Convert string to double.
+33. Create a string from a byte array.
 
-Create a string from a byte array.
+34. Convert string to byte array.
 
-Convert string to byte array.
+35. Check if two string references point to the same object.
 
-Check if two string references point to the same object.
+36. Create a string using StringBuffer.
 
-Create a string using StringBuffer.
+37. Create a string using StringBuilder.
 
-Create a string using StringBuilder.
+38. Check if a string matches a regex pattern.
 
-Check if a string matches a regex pattern.
+39. Replace all occurrences using regex.
 
-Replace all occurrences using regex.
+40. Split string using regex.
 
-Split string using regex.
+41. Extract multiple substrings.
 
-Extract multiple substrings.
+42. Convert string to title case.
 
-Convert string to title case.
+43. Count occurrences of a character.
 
-Count occurrences of a character.
+44. Find all indices of a character.
 
-Find all indices of a character.
+45. Swap two strings without third variable.
 
-Swap two strings without third variable.
+46. Convert string to char array and modify.
 
-Convert string to char array and modify.
+47. Demonstrate string immutability.
 
-Demonstrate string immutability.
+48. Show memory difference between string literal and new string.
 
-Show memory difference between string literal and new string.
+49. Check if string is palindrome.
 
-Check if string is palindrome.
+50. Reverse a string.
 
-Reverse a string.
+================================================================================
+Section 2: String Transformation & Manipulation (51-100)
+================================================================================
 
-String Transformation & Manipulation (51-100)
-Reverse words in a sentence.
+51. Reverse words in a sentence.
 
-Capitalize first letter of each word.
+52. Capitalize first letter of each word.
 
-Convert alternate characters to uppercase.
+53. Convert alternate characters to uppercase.
 
-Convert alternate characters to lowercase.
+54. Convert alternate characters to lowercase.
 
-Toggle case of each character.
+55. Toggle case of each character.
 
-Remove vowels from a string.
+56. Remove vowels from a string.
 
-Remove consonants from a string.
+57. Remove consonants from a string.
 
-Remove digits from a string.
+58. Remove digits from a string.
 
-Remove special characters from a string.
+59. Remove special characters from a string.
 
-Remove all spaces from a string.
+60. Remove all spaces from a string.
 
-Remove duplicate characters from a string.
+61. Remove duplicate characters from a string.
 
-Remove specific character from string.
+62. Remove specific character from string.
 
-Remove all occurrences of a substring.
+63. Remove all occurrences of a substring.
 
-Insert string at specific position.
+64. Insert string at specific position.
 
-Append suffix to string.
+65. Append suffix to string.
 
-Prepend prefix to string.
+66. Prepend prefix to string.
 
-Extract digits from a string.
+67. Extract digits from a string.
 
-Extract alphabets from a string.
+68. Extract alphabets from a string.
 
-Extract special characters from a string.
+69. Extract special characters from a string.
 
-Sort characters in string alphabetically.
+70. Sort characters in string alphabetically.
 
-Sort characters in string descending.
+71. Sort characters in string descending.
 
-Rotate string by N positions left.
+72. Rotate string by N positions left.
 
-Rotate string by N positions right.
+73. Rotate string by N positions right.
 
-Swap first and last character of string.
+74. Swap first and last character of string.
 
-Swap adjacent characters in string.
+75. Swap adjacent characters in string.
 
-Replace spaces with hyphens.
+76. Replace spaces with hyphens.
 
-Replace multiple spaces with single space.
+77. Replace multiple spaces with single space.
 
-Compress string (aaabbc → a3b2c).
+78. Compress string (aaabbc → a3b2c).
 
-Expand compressed string (a3b2c → aaabbc).
+79. Expand compressed string (a3b2c → aaabbc).
 
-Convert snake_case to camelCase.
+80. Convert snake_case to camelCase.
 
-Convert camelCase to snake_case.
+81. Convert camelCase to snake_case.
 
-Convert PascalCase to camelCase.
+82. Convert PascalCase to camelCase.
 
-Convert string to kebab-case.
+83. Convert string to kebab-case.
 
-Convert to alternating case (HeLlO).
+84. Convert to alternating case (HeLlO).
 
-Increment each character by 1 (a→b).
+85. Increment each character by 1 (a→b).
 
-Decrement each character by 1 (b→a).
+86. Decrement each character by 1 (b→a).
 
-Shift characters by N positions in alphabet.
+87. Shift characters by N positions in alphabet.
 
-Apply ROT13 cipher to string.
+88. Apply ROT13 cipher to string.
 
-Apply Caesar cipher with given shift.
+89. Apply Caesar cipher with given shift.
 
-Encode string with Base64.
+90. Encode string with Base64.
 
-Decode Base64 string.
+91. Decode Base64 string.
 
-URL encode a string.
+92. URL encode a string.
 
-URL decode a string.
+93. URL decode a string.
 
-HTML encode special characters.
+94. HTML encode special characters.
 
-HTML decode entities.
+95. HTML decode entities.
 
-Escape JSON string.
+96. Escape JSON string.
 
-Unescape JSON string.
+97. Unescape JSON string.
 
-Convert to Morse code.
+98. Convert to Morse code.
 
-Convert from Morse code.
+99. Convert from Morse code.
 
-Generate all substrings of a string.
+100. Generate all substrings of a string.
 
-Searching & Analysis (101-150)
-Find frequency of each character.
+================================================================================
+Section 3: Searching & Analysis (101-150)
+================================================================================
 
-Find most frequent character.
+101. Find frequency of each character.
 
-Find least frequent character.
+102. Find most frequent character.
 
-Find first non-repeating character.
+103. Find least frequent character.
 
-Find first repeating character.
+104. Find first non-repeating character.
 
-Find last non-repeating character.
+105. Find first repeating character.
 
-Find last repeating character.
+106. Find last non-repeating character.
 
-Find longest substring without repeating characters.
+107. Find last repeating character.
 
-Find shortest substring with all vowels.
+108. Find longest substring without repeating characters.
 
-Find all palindromic substrings.
+109. Find shortest substring with all vowels.
 
-Find longest palindromic substring.
+110. Find all palindromic substrings.
 
-Check if two strings are anagrams.
+111. Find longest palindromic substring.
 
-Check if strings are rotation of each other.
+112. Check if two strings are anagrams.
 
-Check if string is pangram.
+113. Check if strings are rotation of each other.
 
-Check if string is isomorphic.
+114. Check if string is pangram.
 
-Check if string can be rearranged to palindrome.
+115. Check if string is isomorphic.
 
-Find longest common prefix in array of strings.
+116. Check if string can be rearranged to palindrome.
 
-Find longest common suffix.
+117. Find longest common prefix in array of strings.
 
-Find longest word in a sentence.
+118. Find longest common suffix.
 
-Find shortest word in a sentence.
+119. Find longest word in a sentence.
 
-Count number of words in string.
+120. Find shortest word in a sentence.
 
-Count number of sentences.
+121. Count number of words in string.
 
-Count number of paragraphs.
+122. Count number of sentences.
 
-Count vowels and consonants.
+123. Count number of paragraphs.
 
-Count uppercase and lowercase letters.
+124. Count vowels and consonants.
 
-Count digits, letters, and special characters.
+125. Count uppercase and lowercase letters.
 
-Find all occurrences of a word.
+126. Count digits, letters, and special characters.
 
-Find position of a word in sentence.
+127. Find all occurrences of a word.
 
-Search for multiple patterns in string.
+128. Find position of a word in sentence.
 
-Find longest repeated substring.
+129. Search for multiple patterns in string.
 
-Find shortest unique substring for each position.
+130. Find longest repeated substring.
 
-Check if string contains all unique characters.
+131. Find shortest unique substring for each position.
 
-Check if string contains only digits.
+132. Check if string contains all unique characters.
 
-Check if string contains only alphabets.
+133. Check if string contains only digits.
 
-Check if string contains only alphanumeric.
+134. Check if string contains only alphabets.
 
-Check if string is valid email format.
+135. Check if string contains only alphanumeric.
 
-Check if string is valid phone number.
+136. Check if string is valid email format.
 
-Check if string is valid URL.
+137. Check if string is valid phone number.
 
-Check if string is valid IPv4 address.
+138. Check if string is valid URL.
 
-Check if string is valid date format.
+139. Check if string is valid IPv4 address.
 
-Pattern Matching & Algorithms (151-200)
-Implement naive string search algorithm.
+140. Check if string is valid date format.
 
-Implement KMP algorithm.
+141. Find all permutations of a string.
 
-Implement Rabin-Karp algorithm.
+142. Find all anagrams in a text.
 
-Implement Boyer-Moore algorithm.
+143. Count distinct substrings.
 
-Implement Z-algorithm.
+144. Find lexicographically smallest substring of length k.
 
-Find all anagrams of a pattern in string.
+145. Find lexicographically largest substring of length k.
 
-Find smallest window containing all characters of pattern.
+146. Check if string has balanced brackets.
 
-Find smallest substring with all characters of pattern.
+147. Find minimum window substring containing all characters.
 
-Group anagrams from array of strings.
+148. Count palindromic substrings.
 
-Implement wildcard pattern matching.
+149. Find all unique characters in string.
 
-Implement regex pattern matching (basic).
+150. Calculate string similarity percentage.
 
-Validate parentheses in string.
+================================================================================
+Section 4: Pattern Matching & Algorithms (151-200)
+================================================================================
 
-Validate nested brackets of multiple types.
+151. Implement naive string search algorithm.
 
-Remove outermost parentheses.
+152. Implement KMP algorithm.
 
-Count valid parentheses pairs.
+153. Implement Rabin-Karp algorithm.
 
-Generate all valid parentheses combinations of length N.
+154. Implement Boyer-Moore algorithm.
 
-Check if string follows a^n b^n pattern.
+155. Implement Z-algorithm.
 
-Check if string follows a^n b^m c^n pattern.
+156. Find all anagrams of a pattern in string.
 
-Encode run-length of string.
+157. Find smallest window containing all characters of pattern.
 
-Decode run-length encoded string.
+158. Find smallest substring with all characters of pattern.
 
-Huffman encoding for string.
+159. Group anagrams from array of strings.
 
-Huffman decoding.
+160. Implement wildcard pattern matching.
 
-Implement basic compression (LZW-like).
+161. Implement regex pattern matching (basic).
 
-Implement basic decompression.
+162. Validate parentheses in string.
 
-Find Levenshtein distance between two strings.
+163. Validate nested brackets of multiple types.
 
-Find longest common subsequence.
+164. Remove outermost parentheses.
 
-Find longest common substring.
+165. Count valid parentheses pairs.
 
-Find edit distance between strings.
+166. Generate all valid parentheses combinations of length N.
 
-Implement diff between two strings.
+167. Check if string follows a^n b^n pattern.
 
-Implement string alignment.
+168. Check if string follows a^n b^m c^n pattern.
 
-Check if string matches pattern with  and .
+169. Encode run-length of string.
 
-Check if string matches pattern with + and .
+170. Decode run-length encoded string.
 
-Find all permutations of string.
+171. Huffman encoding for string.
 
-Find all combinations of string.
+172. Huffman decoding.
 
-Generate power set of string characters.
+173. Implement basic compression (LZW-like).
 
-Find next lexicographic permutation.
+174. Implement basic decompression.
 
-Find previous lexicographic permutation.
+175. Find Levenshtein distance between two strings.
 
-Rank of string in lexicographic order.
+176. Find longest common subsequence.
 
-Unrank to string from lexicographic order.
+177. Find longest common substring.
 
-Implement soundex algorithm.
+178. Find edit distance between strings.
 
-Implement metaphone algorithm.
+179. Implement diff between two strings.
 
-Calculate string similarity using cosine similarity.
+180. Implement string alignment.
 
-Calculate Jaccard similarity between strings.
+181. Check if string matches pattern with * and .
 
-Implement Dice coefficient.
+182. Check if string matches pattern with + and .
 
-Implement Hamming distance.
+183. Find all permutations of string.
 
-Implement Jaro-Winkler distance.
+184. Find all combinations of string.
 
-Find string overlaps (suffix-prefix matches).
+185. Generate power set of string characters.
 
-Implement Aho-Corasick algorithm.
+186. Find next lexicographic permutation.
 
-Implement suffix array construction.
+187. Find previous lexicographic permutation.
 
-Implement longest common prefix array.
+188. Rank of string in lexicographic order.
 
-Advanced & Real-World Applications (201-250)
-Parse CSV string.
+189. Unrank to string from lexicographic order.
 
-Parse query string parameters.
+190. Implement soundex algorithm.
 
-Parse JSON string (simple).
+191. Implement metaphone algorithm.
 
-Parse XML string (simple).
+192. Calculate string similarity using cosine similarity.
 
-Extract all email addresses from text.
+193. Calculate Jaccard similarity between strings.
 
-Extract all URLs from text.
+194. Implement Dice coefficient.
 
-Extract all hashtags from text.
+195. Implement Hamming distance.
 
-Extract all mentions from text.
+196. Implement Jaro-Winkler distance.
 
-Remove HTML tags from string.
+197. Find string overlaps (suffix-prefix matches).
 
-Extract text between HTML tags.
+198. Implement Aho-Corasick algorithm.
 
-Validate XMLHTML tag nesting.
+199. Implement suffix array construction.
 
-Implement template engine (replace placeholders).
+200. Implement longest common prefix array.
 
-Implement simple markdown parser.
+================================================================================
+Section 5: Advanced & Real-World Applications (201-250)
+================================================================================
 
-Convert text to speech format (numbers to words).
+201. Parse CSV string.
 
-Convert Roman numerals to integer.
+202. Parse query string parameters.
 
-Convert integer to Roman numerals.
+203. Parse JSON string (simple).
 
-Spell check using edit distance.
+204. Parse XML string (simple).
 
-Implement autocomplete with Trie.
+205. Extract all email addresses from text.
 
-Implement search suggestions.
+206. Extract all URLs from text.
 
-Implement password strength checker.
+207. Extract all hashtags from text.
 
-Generate random string of given length.
+208. Extract all mentions from text.
 
-Generate random password with criteria.
+209. Remove HTML tags from string.
 
-Mask email address (joh@example.com).
+210. Extract text between HTML tags.
 
-Mask credit card number (   1234).
+211. Validate XML/HTML tag nesting.
 
-Format number with commas (1000000 → 1,000,000).
+212. Implement template engine (replace placeholders).
 
-Implement word wrap algorithm.
+213. Implement simple markdown parser.
 
-Justify text (left, right, center, full).
+214. Convert text to speech format (numbers to words).
 
-Implement text alignment.
+215. Convert Roman numerals to integer.
 
-Convert text to columns.
+216. Convert integer to Roman numerals.
 
-Implement simple encryption (XOR).
+217. Spell check using edit distance.
 
-Implement simple decryption.
+218. Implement autocomplete with Trie.
 
-Implement vignere cipher.
+219. Implement search suggestions.
 
-Implement playfair cipher.
+220. Implement password strength checker.
 
-Implement columnar transposition cipher.
+221. Generate random string of given length.
 
-Implement rail fence cipher.
+222. Generate random password with criteria.
 
-Implement atbash cipher.
+223. Mask email address (jo***h@example.com).
 
-Implement affine cipher.
+224. Mask credit card number (**** **** **** 1234).
 
-Calculate frequency analysis for cipher.
+225. Format number with commas (1000000 → 1,000,000).
 
-Implement simple steganography in text.
+226. Implement word wrap algorithm.
 
-Convert binary string to text.
+227. Justify text (left, right, center, full).
 
-Convert text to binary string.
+228. Implement text alignment.
 
-Convert hex string to text.
+229. Convert text to columns.
 
-Convert text to hex string.
+230. Implement simple encryption (XOR).
 
-Implement UTF-8 validation.
+231. Implement simple decryption.
 
-Handle string with emojis.
+232. Implement vignere cipher.
 
-Count graphemes in string (considering surrogate pairs).
+233. Implement playfair cipher.
 
-Reverse string preserving Unicode characters.
+234. Implement columnar transposition cipher.
 
-Normalize string (NFC, NFD, NFKC, NFKD).
+235. Implement rail fence cipher.
 
-Implement locale-aware string comparison.
+236. Implement atbash cipher.
 
-Implement collation for sorting strings with numbers.
+237. Implement affine cipher.
+
+238. Calculate frequency analysis for cipher.
+
+239. Implement simple steganography in text.
+
+240. Convert binary string to text.
+
+241. Convert text to binary string.
+
+242. Convert hex string to text.
+
+243. Convert text to hex string.
+
+244. Implement UTF-8 validation.
+
+245. Handle string with emojis.
+
+246. Count graphemes in string (considering surrogate pairs).
+
+247. Reverse string preserving Unicode characters.
+
+248. Normalize string (NFC, NFD, NFKC, NFKD).
+
+249. Implement locale-aware string comparison.
+
+250. Implement collation for sorting strings with numbers.
+
+================================================================================
+END OF QUESTIONS
+================================================================================
