@@ -1,311 +1,415 @@
-Basic List Operations (20)
+JAVA COLLECTIONS PROGRAMMING QUESTIONS (185 Questions)
 
+================================================================================
+Section 1: Basic List Operations (1-20)
+================================================================================
 
+1. Reverse a List without using Collections.reverse()
 
-Reverse a List without using Collections.reverse()
+2. Find duplicate elements in a List
 
-Find duplicate elements in a List
+3. Find the first non-repeating character using List
 
-Find the first non-repeating character using List
+4. Rotate a List by k positions
 
-Rotate a List by k positions
+5. Find the intersection of two Lists
 
-Find the intersection of two Lists
+6. Find the union of two Lists
 
-Find the union of two Lists
+7. Remove all occurrences of a given element from ArrayList
 
-Remove all occurrences of a given element from ArrayList
+8. Find the frequency of each element in a List
 
-Find the frequency of each element in a List
+9. Merge two sorted ArrayLists into a single sorted ArrayList
 
-Merge two sorted ArrayLists into a single sorted ArrayList
+10. Find the second largest element in an ArrayList
 
-Find the second largest element in an ArrayList
+11. Remove duplicates from a List while maintaining order
 
-Remove duplicates from a List while maintaining order
+12. Check if two Lists are equal (same elements, same order)
 
-Check if two Lists are equal (same elements, same order)
+13. Find common elements between three ArrayLists
 
-Find common elements between three ArrayLists
+14. Find the longest consecutive sequence in an ArrayList of integers
 
-Find the longest consecutive sequence in an ArrayList of integers
+15. Shuffle elements in a List without using Collections.shuffle()
 
-Shuffle elements in a List without using Collections.shuffle()
+16. Find all pairs in an ArrayList that sum to a target value
 
-Find all pairs in an ArrayList that sum to a target value
+17. Implement a method to get a sublist and modify it (observe original list changes)
 
-Implement a method to get a sublist and modify it (observe original list changes)
+18. Convert List of Strings to List of Integers
 
-Convert List of Strings to List of Integers
+19. Find the kth smallest element in an ArrayList
 
-Find the kth smallest element in an ArrayList
+20. Split a List into two equal halves
 
-Split a List into two equal halves
+================================================================================
+Section 2: LinkedList Coding Problems (21-35)
+================================================================================
 
-LinkedList Coding Problems (15)
-Implement your own singly LinkedList with add, remove, find methods
+21. Implement your own singly LinkedList with add, remove, find methods
 
-Reverse a singly LinkedList
+22. Reverse a singly LinkedList
 
-Detect a loop in a LinkedList
+23. Detect a loop in a LinkedList
 
-Find the middle element of a LinkedList in one pass
+24. Find the middle element of a LinkedList in one pass
 
-Merge two sorted LinkedLists
+25. Merge two sorted LinkedLists
 
-Remove nth node from the end of a LinkedList
+26. Remove nth node from the end of a LinkedList
 
-Implement a method to check if LinkedList is palindrome
+27. Implement a method to check if LinkedList is palindrome
 
-Remove duplicate nodes from unsorted LinkedList
+28. Remove duplicate nodes from unsorted LinkedList
 
-Find the intersection point of two LinkedLists
+29. Find the intersection point of two LinkedLists
 
-Add two numbers represented by LinkedLists
+30. Add two numbers represented by LinkedLists
 
-Sort a LinkedList using merge sort
+31. Sort a LinkedList using merge sort
 
-Rotate a LinkedList by k nodes
+32. Rotate a LinkedList by k nodes
 
-Flatten a multi-level LinkedList
+33. Flatten a multi-level LinkedList
 
-Clone a LinkedList with random pointers
+34. Clone a LinkedList with random pointers
 
-Implement LRU Cache using doubly LinkedList
+35. Implement LRU Cache using doubly LinkedList
 
-Set Interface Problems (15)
-Find duplicate elements using HashSet
+================================================================================
+Section 3: Set Interface Problems (36-50)
+================================================================================
 
-Check if an array contains duplicate elements within k distance
+36. Find duplicate elements using HashSet
 
-Find symmetric difference between two Sets
+37. Check if an array contains duplicate elements within k distance
 
-Find all unique triplets that sum to zero
+38. Find symmetric difference between two Sets
 
-Implement a method to return union of multiple Sets
+39. Find all unique triplets that sum to zero
 
-Find the first repeating character using HashSet
+40. Implement a method to return union of multiple Sets
 
-Find missing number in an array of 1 to n using HashSet
+41. Find the first repeating character using HashSet
 
-Find longest substring without repeating characters using Set
+42. Find missing number in an array of 1 to n using HashSet
 
-Check if two arrays are disjoint (no common elements)
+43. Find longest substring without repeating characters using Set
 
-Find all duplicate words in a string using HashSet
+44. Check if two arrays are disjoint (no common elements)
 
-Remove duplicates from an array using LinkedHashSet to maintain order
+45. Find all duplicate words in a string using HashSet
 
-Find common characters between two strings using HashSet
+46. Remove duplicates from an array using LinkedHashSet to maintain order
 
-Find the starting point of a cycle in a linked list using HashSet
+47. Find common characters between two strings using HashSet
 
-Check if a sentence is pangram using HashSet
+48. Find the starting point of a cycle in a linked list using HashSet
 
-Find the number of distinct absolute values in an array
+49. Check if a sentence is pangram using HashSet
 
-Map/HashMap Coding Tasks (25)
-Count frequency of each character in a string using HashMap
+50. Find the number of distinct absolute values in an array
 
-Find first non-repeating character using HashMap
+================================================================================
+Section 4: Map/HashMap Coding Tasks (51-75)
+================================================================================
 
-Group anagrams from a list of strings
+51. Count frequency of each character in a string using HashMap
 
-Find two numbers in array that sum to target using HashMap
+52. Find first non-repeating character using HashMap
 
-Find the length of longest consecutive sequence in array
+53. Group anagrams from a list of strings
 
-Count frequency of words in a text file using HashMap
+54. Find two numbers in array that sum to target using HashMap
 
-Check if two strings are isomorphic using HashMap
+55. Find the length of longest consecutive sequence in array
 
-Implement a method to return a frequency map from a List
+56. Count frequency of words in a text file using HashMap
 
-Find the majority element in an array (appears more than n/2 times)
+57. Check if two strings are isomorphic using HashMap
 
-Find all pairs with given sum in two arrays
+58. Implement a method to return a frequency map from a List
 
-Find subarray with sum zero using HashMap
+59. Find the majority element in an array (appears more than n/2 times)
 
-Find longest substring with at most k distinct characters
+60. Find all pairs with given sum in two arrays
 
-Design a time-based key-value store using HashMap of TreeMaps
+61. Find subarray with sum zero using HashMap
 
-Implement insert, delete, getRandom in O(1) using HashMap and ArrayList
+62. Find longest substring with at most k distinct characters
 
-Find top k frequent elements in array
+63. Design a time-based key-value store using HashMap of TreeMaps
 
-Implement LRU Cache using LinkedHashMap
+64. Implement insert, delete, getRandom in O(1) using HashMap and ArrayList
 
-Check if a string has all unique characters using HashMap
+65. Find top k frequent elements in array
 
-Find smallest subarray covering all values using HashMap
+66. Implement LRU Cache using LinkedHashMap
 
-Implement a method to sort HashMap by values
+67. Check if a string has all unique characters using HashMap
 
-Find all anagram pairs in array of strings
+68. Find smallest subarray covering all values using HashMap
 
-Count number of subarrays with exactly k distinct integers
+69. Implement a method to sort HashMap by values
 
-Find longest substring without repeating characters using HashMap
+70. Find all anagram pairs in array of strings
 
-Check if two strings are permutations of each other using HashMap
+71. Count number of subarrays with exactly k distinct integers
 
-Find duplicate files in file system using HashMap
+72. Find longest substring without repeating characters using HashMap
 
-Implement a frequency stack where pop returns most frequent element
+73. Check if two strings are permutations of each other using HashMap
 
-Queue & Deque Problems (15)
-Implement Stack using two Queues
+74. Find duplicate files in file system using HashMap
 
-Implement Queue using two Stacks
+75. Implement a frequency stack where pop returns most frequent element
 
-Reverse first k elements of a Queue
+================================================================================
+Section 5: Queue & Deque Problems (76-90)
+================================================================================
 
-Generate binary numbers from 1 to n using Queue
+76. Implement Stack using two Queues
 
-Implement a circular Queue using ArrayList
+77. Implement Queue using two Stacks
 
-Find maximum in sliding window using Deque
+78. Reverse first k elements of a Queue
 
-Implement a recent counter using Queue
+79. Generate binary numbers from 1 to n using Queue
 
-Design a hit counter using Queue
+80. Implement a circular Queue using ArrayList
 
-Implement a task scheduler using PriorityQueue
+81. Find maximum in sliding window using Deque
 
-Reverse Queue without using any data structure
+82. Implement a recent counter using Queue
 
-Find the first negative integer in every window of size k
+83. Design a hit counter using Queue
 
-Implement a method to return k largest elements using PriorityQueue
+84. Implement a task scheduler using PriorityQueue
 
-Design a messaging queue with producer-consumer using BlockingQueue
+85. Reverse Queue without using any data structure
 
-Implement LRU Cache using Deque and HashMap
+86. Find the first negative integer in every window of size k
 
-Find the shortest subarray with sum at least k using Deque
+87. Implement a method to return k largest elements using PriorityQueue
 
-PriorityQueue & Heap Problems (15)
-Find kth largest element using PriorityQueue
+88. Design a messaging queue with producer-consumer using BlockingQueue
 
-Merge k sorted lists using PriorityQueue
+89. Implement LRU Cache using Deque and HashMap
 
-Find median from data stream using two PriorityQueues
+90. Find the shortest subarray with sum at least k using Deque
 
-Find top k frequent words using PriorityQueue
+================================================================================
+Section 6: PriorityQueue & Heap Problems (91-105)
+================================================================================
 
-Implement a method to return k closest points to origin
+91. Find kth largest element using PriorityQueue
 
-Find k pairs with smallest sums from two arrays
+92. Merge k sorted lists using PriorityQueue
 
-Rearrange characters so no two adjacent are same using PriorityQueue
+93. Find median from data stream using two PriorityQueues
 
-Find kth smallest element in sorted matrix using PriorityQueue
+94. Find top k frequent words using PriorityQueue
 
-Connect n ropes with minimum cost using PriorityQueue
+95. Implement a method to return k closest points to origin
 
-Implement task scheduler with cooldown using PriorityQueue
+96. Find k pairs with smallest sums from two arrays
 
-Find most frequent k words in stream using PriorityQueue
+97. Rearrange characters so no two adjacent are same using PriorityQueue
 
-Find kth largest element in a stream
+98. Find kth smallest element in sorted matrix using PriorityQueue
 
-Design a twitter feed system using PriorityQueue
+99. Connect n ropes with minimum cost using PriorityQueue
 
-Find smallest range covering elements from k lists
+100. Implement task scheduler with cooldown using PriorityQueue
 
-Implement a max heap using PriorityQueue
+101. Find most frequent k words in stream using PriorityQueue
 
-TreeMap & TreeSet Problems (15)
-Find floor and ceiling of a number in sorted array using TreeSet
+102. Find kth largest element in a stream
 
-Find kth smallest element in BST using TreeSet
+103. Design a twitter feed system using PriorityQueue
 
-Count smaller elements on right side using TreeSet
+104. Find smallest range covering elements from k lists
 
-Find number of elements in given range using TreeSet
+105. Implement a max heap using PriorityQueue
 
-Implement a calendar I using TreeMap
+================================================================================
+Section 7: TreeMap & TreeSet Problems (106-120)
+================================================================================
 
-Find right interval using TreeMap
+106. Find floor and ceiling of a number in sorted array using TreeSet
 
-Find contains duplicate III (abs diff <= t and index diff <= k)
+107. Find kth smallest element in BST using TreeSet
 
-Count of range sum using TreeMap
+108. Count smaller elements on right side using TreeSet
 
-Find maximum gap using TreeSet
+109. Find number of elements in given range using TreeSet
 
-Implement snapshot array using TreeMap
+110. Implement a calendar I using TreeMap
 
-Design a leaderboard using TreeMap
+111. Find right interval using TreeMap
 
-Find k-empty slots using TreeSet
+112. Find contains duplicate III (abs diff <= t and index diff <= k)
 
-My Calendar III using TreeMap
+113. Count of range sum using TreeMap
 
-Find reverse pairs using TreeSet
+114. Find maximum gap using TreeSet
 
-Range module using TreeMap
+115. Implement snapshot array using TreeMap
 
-Advanced Collection Problems (20)
-Implement a trie (prefix tree) using HashMap
+116. Design a leaderboard using TreeMap
 
-Design HashSet without using built-in libraries
+117. Find k-empty slots using TreeSet
 
-Design HashMap without using built-in libraries
+118. My Calendar III using TreeMap
 
-Implement an LRU Cache from scratch (not using LinkedHashMap)
+119. Find reverse pairs using TreeSet
 
-Implement LFU Cache using HashMap and TreeMap
+120. Range module using TreeMap
 
-Design insert delete getRandom O(1) with duplicates allowed
+================================================================================
+Section 8: Advanced Collection Problems (121-140)
+================================================================================
 
-Implement a multi-value dictionary (Map<String, List>)
+121. Implement a trie (prefix tree) using HashMap
 
-Design a time travel map with versioning
+122. Design HashSet without using built-in libraries
 
-Implement a method to deep copy a nested list
+123. Design HashMap without using built-in libraries
 
-Design a file system using TreeMap
+124. Implement an LRU Cache from scratch (not using LinkedHashMap)
 
-Implement autocomplete system using TreeMap
+125. Implement LFU Cache using HashMap and TreeMap
 
-Design a voting system to get top k candidates
+126. Design insert delete getRandom O(1) with duplicates allowed
 
-Implement consistent hashing using TreeMap
+127. Implement a multi-value dictionary (Map<String, List<String>>)
 
-Design a rate limiter using TreeMap
+128. Design a time travel map with versioning
 
-Implement a social media feed using PriorityQueue
+129. Implement a method to deep copy a nested list
 
-Design a shopping cart with inventory management using HashMap
+130. Design a file system using TreeMap
 
-Implement a method to merge multiple maps
+131. Implement autocomplete system using TreeMap
 
-Design a concurrent key-value store with transactions
+132. Design a voting system to get top k candidates
 
-Implement a method to find all combinations that sum to target
+133. Implement consistent hashing using TreeMap
 
-Design a stock price tracker with min, max, current using TreeMap
+134. Design a rate limiter using TreeMap
 
-Concurrent Collections (10)
-Implement producer-consumer using BlockingQueue
+135. Implement a social media feed using PriorityQueue
 
-Design a thread-safe cache using ConcurrentHashMap
+136. Design a shopping cart with inventory management using HashMap
 
-Implement a method to safely iterate over CopyOnWriteArrayList
+137. Implement a method to merge multiple maps
 
-Design a rate limiter using ConcurrentHashMap
+138. Design a concurrent key-value store with transactions
 
-Implement a concurrent task executor using PriorityBlockingQueue
+139. Implement a method to find all combinations that sum to target
 
-Design a hit counter using ConcurrentHashMap
+140. Design a stock price tracker with min, max, current using TreeMap
 
-Implement a method to atomically update map entries
+================================================================================
+Section 9: Concurrent Collections (141-150)
+================================================================================
 
-Design a thread-safe LRU Cache using ConcurrentHashMap
+141. Implement producer-consumer using BlockingQueue
 
-Implement a method to computeIfAbsent in ConcurrentHashMap
+142. Design a thread-safe cache using ConcurrentHashMap
 
-Design a concurrent stack using ConcurrentLinkedDeque
+143. Implement a method to safely iterate over CopyOnWriteArrayList
+
+144. Design a rate limiter using ConcurrentHashMap
+
+145. Implement a concurrent task executor using PriorityBlockingQueue
+
+146. Design a hit counter using ConcurrentHashMap
+
+147. Implement a method to atomically update map entries
+
+148. Design a thread-safe LRU Cache using ConcurrentHashMap
+
+149. Implement a method to computeIfAbsent in ConcurrentHashMap
+
+150. Design a concurrent stack using ConcurrentLinkedDeque
+
+================================================================================
+Section 10: Additional Collection Problems (151-185)
+================================================================================
+
+151. Implement a circular buffer using ArrayList
+
+152. Design a bounded blocking queue from scratch
+
+153. Implement a min-stack using two stacks
+
+154. Design a max-stack that supports getMax in O(1)
+
+155. Implement a queue that supports getMax in O(1)
+
+156. Design a data structure for LFU cache
+
+157. Implement a moving average from data stream
+
+158. Design a logger rate limiter
+
+159. Implement a time-based key-value store
+
+160. Design a search autocomplete system
+
+161. Implement a Twitter-like feed aggregator
+
+162. Design a parking lot system using multiple data structures
+
+163. Implement a file system with folders and files
+
+164. Design a memory-efficient data structure for sparse arrays
+
+165. Implement a disjoint set (union-find) data structure
+
+166. Design a graph using adjacency list (HashMap)
+
+167. Implement a cache with time expiration
+
+168. Design a task scheduler with dependencies
+
+169. Implement a circular iterator for a list
+
+170. Design a nested iterator for nested list
+
+171. Implement a peek iterator
+
+172. Design a zigzag iterator for multiple lists
+
+173. Implement a flatten 2D vector
+
+174. Design a range sum query - mutable using segment tree
+
+175. Implement a binary indexed tree (Fenwick tree)
+
+176. Design a range minimum query using sparse table
+
+177. Implement a monotonic queue
+
+178. Design a stock span calculator
+
+179. Implement a next greater element finder
+
+180. Design a valid parentheses checker with stack
+
+181. Implement a basic calculator using stack
+
+182. Design an expression evaluator (infix to postfix)
+
+183. Implement a browser history with back and forward
+
+184. Design a text editor with undo/redo functionality
+
+185. Implement a design pattern: Iterator for custom collection
+
+================================================================================
+END OF QUESTIONS
+================================================================================
