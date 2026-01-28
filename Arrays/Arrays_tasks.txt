@@ -2,25 +2,25 @@ Section 1: Basics (1–40)
 
 
 
-Write a Java program to find the length of a given array.
+1. Write a Java program to find the length of a given array.
 
-How do you declare and initialize a 1D integer array with the values 5, 10, 15, and 20 in a single line?
+2. How do you declare and initialize a 1D integer array with the values 5, 10, 15, and 20 in a single line?
 
-Write a Java program to traverse and print all elements of an array using a standard for loop.
+3. Write a Java program to traverse and print all elements of an array using a standard for loop.
 
-Write a Java program to traverse and print all elements of an array using an enhanced for loop.
+4. Write a Java program to traverse and print all elements of an array using an enhanced for loop.
 
-How do you access the first and the last element of an array programmatically?
+5. How do you access the first and the last element of an array programmatically?
 
-Write a Java method to find the largest element in an integer array.
+6. Write a Java method to find the largest element in an integer array.
 
-Write a Java method to find the smallest element in an integer array.
+7. Write a Java method to find the smallest element in an integer array.
 
-Calculate the sum of all elements in an integer array.
+8. Calculate the sum of all elements in an integer array.
 
-Calculate the average of all elements in an integer array.
+9. Calculate the average of all elements in an integer array.
 
-Write a program to copy elements from one array to another array.
+10. Write a program to copy elements from one array to another array.
 
 Write a program to reverse the order of elements in an integer array and store the result in a new array.
 
